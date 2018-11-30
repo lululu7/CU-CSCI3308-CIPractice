@@ -1,4 +1,4 @@
-language:c
+language: c
 
 before_install:
  - sudo apt-get update && sudo apt-get install -y check
@@ -9,6 +9,7 @@ compiler:
 script:
  - make
  - make test
+
 addons:
-	apt:
-		update:true
+    apt:
+        update: true
